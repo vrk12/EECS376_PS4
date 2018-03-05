@@ -4,6 +4,7 @@ project(my_action_server)
 find_package(catkin_simple REQUIRED)
 # example boost usage
 find_package(Boost REQUIRED COMPONENTS system thread)
+find_package(cmake_modules REQUIRED)
 catkin_simple()
 
 # Executables
